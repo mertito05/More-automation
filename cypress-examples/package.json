@@ -1,0 +1,18 @@
+{
+  "name": "cypress-examples",
+  "version": "1.0.0",
+  "description": "Comprehensive Cypress testing examples",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:headed": "cypress run --headed",
+    "cypress:chrome": "cypress run --browser chrome",
+    "cypress:firefox": "cypress run --browser firefox",
+    "cypress:edge": "cypress run --browser edge"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.0",
+    "@faker-js/faker": "^8.3.1",
+    "cypress-file-upload": "^5.0.8"
+  }
+}
